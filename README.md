@@ -9,9 +9,11 @@ Mermaid is a Markdown-like language for generating diagrams and flowcharts direc
 To create a basic flowchart using Mermaid, you can use the following syntax:
 
 ```mermaid
+
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    A[Example A] --> B[Example B];
+    B --> C[Example B - C ];
+    C --> D[Example C - D];
+    D --> E[Example D ];
+
 
